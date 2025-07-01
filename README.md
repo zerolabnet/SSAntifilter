@@ -2,6 +2,8 @@
 
 A powerful web-based tool for managing and generating proxy lists from Antifilter sources and custom lists. SSAntifilter automatically downloads, converts, and serves proxy lists in multiple formats including Clash, Shadowrocket, and v2ray GeoIP/GeoSite databases.
 
+---
+
 <p align="center">
  <img src="scr-01.png" width="100%">
 </p>
