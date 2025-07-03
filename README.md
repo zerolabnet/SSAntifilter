@@ -128,17 +128,6 @@ docker run -d \
 
 ## Available Endpoints
 
-### Clash YAML Configs
-
-- `/antifilter-ip.yaml` - Antifilter IP ranges
-- `/antifilter-community-ip.yaml` - Community IP ranges
-- `/antifilter-community-domain.yaml` - Community domains
-- `/proxy-domain.yaml` - Custom proxy domains
-- `/direct-domain.yaml` - Custom direct domains
-- `/proxy-ip.yaml` - Custom proxy IPs
-- `/direct-ip.yaml` - Custom direct IPs
-
-
 ### Clash Text Lists/Shadowrocket
 
 - `/antifilter-ip.list` - Antifilter IP ranges
@@ -148,6 +137,17 @@ docker run -d \
 - `/direct-domain.list` - Custom direct domains
 - `/proxy-ip.list` - Custom proxy IPs
 - `/direct-ip.list` - Custom direct IPs
+
+
+### Clash YAML Configs
+
+- `/antifilter-ip.yaml` - Antifilter IP ranges
+- `/antifilter-community-ip.yaml` - Community IP ranges
+- `/antifilter-community-domain.yaml` - Community domains
+- `/proxy-domain.yaml` - Custom proxy domains
+- `/direct-domain.yaml` - Custom direct domains
+- `/proxy-ip.yaml` - Custom proxy IPs
+- `/direct-ip.yaml` - Custom direct IPs
 
 
 ### v2ray Databases
