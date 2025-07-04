@@ -56,6 +56,11 @@ docker run -d \
 
 1. **Generate SSL Certificate**:
 ```bash
+# Specify Lets Encrypt as the ACME CA
+docker run --rm -it -v /data/acme:/acme.sh neilpang/acme.sh --set-default-ca --server letsencrypt
+```
+
+```bash
 docker run --rm -it \
   -v /data/acme:/acme.sh \
   -p 80:80 \
