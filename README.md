@@ -156,6 +156,23 @@ docker run -d \
 - `/geosite.dat` - GeoSite database
 
 
+## v2ray Database Categories
+
+### v2rayGeoIPDat IP list category (geoip.dat)
+
+- `antifilter-ip` - IP addresses blocked in Russia from Antifilter
+- `antifilter-community-ip` - Community-maintained IP addresses
+- `proxy-ip` - Custom proxy IP addresses
+- `direct-ip` - Custom direct IP addresses
+
+
+### v2rayGeoIPDat domain list category (geosite.dat)
+
+- `antifilter-community-domain` - Community-maintained blocked domains
+- `proxy-domain` - Custom proxy domains
+- `direct-domain` - Custom direct domains
+
+
 ## File Format Examples
 
 ### Domain Lists
